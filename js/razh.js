@@ -60,7 +60,7 @@ $("#iniciarTest").on("click", function () {
             $("#contenedor").hide();
             numeroClick = 2;
 
-        }, 30000);
+        }, 60000);
     } else if (numeroClick == 2) {
         setTimeout(function () {
             swal({ title: "Prueba terminada!", text: "La Prueba Finalizó", type: "info", timer: 5000, showConfirmButton: true });
@@ -83,7 +83,7 @@ $("#iniciarTest").on("click", function () {
             $('#resumen1_total').append(resumen.join(''));
             $('#resumen2_total').append(resumen2.join(''));
 
-        }, 30000); //60000
+        }, 60000); //60000
     } else if (numeroClick == 3) {
         location.reload();
     }
